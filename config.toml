@@ -147,12 +147,12 @@ theme = "LoveIt"
 
   # Social config about the author
   [params.social]
-    GitHub = "xxxx"
-    Linkedin = ""
-    Twitter = "xxxx"
-    Instagram = "xxxx"
-    Facebook = "xxxx"
-    Telegram = "xxxx"
+    GitHub = "GaiusRed"
+    Linkedin = "GaiusRed"
+    Twitter = "GaiusRed"
+    Instagram = "Gaius.Red"
+    Facebook = "ErikGaius"
+    Telegram = "GaiusRed"
     Medium = ""
     Gitlab = ""
     Youtubelegacy = ""
@@ -160,9 +160,9 @@ theme = "LoveIt"
     Youtubechannel = ""
     Tumblr = ""
     Quora = ""
-    Keybase = ""
+    Keybase = "gaius"
     Pinterest = ""
-    Reddit = ""
+    Reddit = "GaiusRed"
     Codepen = ""
     FreeCodeCamp = ""
     Bitbucket = ""
@@ -186,7 +186,7 @@ theme = "LoveIt"
     Kickstarter = ""
     Patreon = ""
     Steam = ""
-    Twitch = ""
+    Twitch = "GaiusRed"
     Strava = ""
     Skype = ""
     Whatsapp = ""
@@ -209,7 +209,7 @@ theme = "LoveIt"
     XMPP = ""
     Matrix = ""
     Bilibili = ""
-    Email = "xxxx@xxxx.com"
+    Email = "erik@gaius.red"
     RSS = true
 
   #  Page config
@@ -281,24 +281,24 @@ theme = "LoveIt"
       Twitter = true
       Facebook = true
       Linkedin = false
-      Whatsapp = true
+      Whatsapp = false
       Pinterest = false
       Tumblr = false
-      HackerNews = false
-      Reddit = false
+      HackerNews = true
+      Reddit = true
       VK = false
       Buffer = false
       Xing = false
-      Line = true
+      Line = false
       Instapaper = false
-      Pocket = false
+      Pocket = true
       Digg = false
       Stumbleupon = false
       Flipboard = false
-      Weibo = true
+      Weibo = false
       Renren = false
-      Myspace = true
-      Blogger = true
+      Myspace = false
+      Blogger = false
       Baidu = false
       Odnoklassniki = false
       Evernote = true
@@ -310,9 +310,9 @@ theme = "LoveIt"
       enable = true
       # Disqus comment config
       [params.page.comment.disqus]
-        enable = false
+        enable = true
         # Disqus shortname to use Disqus in posts
-        shortname = ""
+        shortname = "https-gaius-red"
       # Gitalk comment config
       [params.page.comment.gitalk]
         enable = false
