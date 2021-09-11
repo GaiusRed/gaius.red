@@ -1,0 +1,9 @@
+<script>
+  window.addEventListener('load', function() {
+    window.HoradricHelper.PathOfExile.applyConfig({
+      reference: {{ .Get 0 }},
+      iconUrl: "{{ .Get 1 }}",
+      data:{{- .Inner | safeJS -}},
+    })
+  });
+</script>

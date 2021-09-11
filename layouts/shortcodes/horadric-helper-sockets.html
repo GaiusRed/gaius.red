@@ -1,0 +1,19 @@
+<script>
+  window.addEventListener('load', function() {
+    window.HoradricHelper.PathOfExile.applyConfig({
+      reference: {{ .Get 0 }},
+      iconUrl: "",
+      data: {{- .Inner | safeJS -}},
+      extensions: {
+        socketReferences: {
+          1: "{{ .Get 1 }}",
+          2: "{{ .Get 2 }}",
+          3: "{{ .Get 3 }}",
+          4: "{{ .Get 4 }}",
+          5: "{{ .Get 5 }}",
+          6: "{{ .Get 6 }}"
+        }
+      }
+    })
+  });
+</script>
