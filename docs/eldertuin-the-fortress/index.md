@@ -170,6 +170,8 @@ Feel free to use any other four link skill here.
 - <poe-item as-text reference="Anomalous Defiance Banner" icon-inside></poe-item>
 
 <poe-item as-showcase reference="Sockets Weapon2" show-sockets-in-showcase></poe-item>
+
+You can use a high quality Dread Banner instead of a Defiance Banner for 5% more damage (Increased Impale Effect) at the cost of 3% less physical damage reduction (about 3,700 Armour).
 {{</ admonition >}}
 
 {{< admonition info "Utility gems on Prismatic Eclipse">}}

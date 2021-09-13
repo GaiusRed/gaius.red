@@ -7,6 +7,8 @@ categories: ["Path of Exile"]
 
 description: "This build is centered on taking advantage of Headhunter buffs. It has decent Armour, maximum Block and high Attack Speed to apply multiple Impales & Bleeds via Anomalous Shield Crush. In adddition, the build uses Inspired Learning while levelling, mapping and saving currency for an actual Headhunter, and sacrifices some 'on paper' DPS in order to ensure that every stolen buff will be beneficial."
 
+images: ["/images/eldertuin-the-fortress.png"]
+featuredImage: "/images/eldertuin-the-fortress.png"
 comment:
   enable: false
 library:
@@ -185,6 +187,8 @@ Feel free to use any other four link skill here.
 - <poe-item as-text reference="Anomalous Defiance Banner" icon-inside></poe-item>
 
 <poe-item as-showcase reference="Sockets Weapon2" show-sockets-in-showcase></poe-item>
+
+You can use a high quality Dread Banner instead of a Defiance Banner for 5% more damage (Increased Impale Effect) at the cost of 3% less physical damage reduction (about 3,700 Armour).
 {{</ admonition >}}
 
 {{< admonition info "Utility gems on Prismatic Eclipse">}}
