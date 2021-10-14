@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Break|Point Guide: Eldertuin The Fortress"
 subtitle: "How to build an Inspired Learning + Shield Crush Gladiator"
 date: 2021-09-11T16:45:51+08:00
@@ -9,6 +10,7 @@ description: "A Break|Point Guide is centered around the idea that ARPG characte
 
 images: ["/images/eldertuin-lvl-06.png"]
 featuredImage: "/images/eldertuin-the-fortress.png"
+
 comment:
   enable: false
 library:
@@ -117,7 +119,9 @@ Get your quest rewards at Lioneye's Reach. Allocate your skill points, starting 
 
 {{< figure src="/images/eldertuin-lvl-12.png" >}}
 
-UNDER CONSTRUCTION
+ Get an <poe-item as-text reference="Enduring Cry" icon-inside></poe-item>Enduring Cry, <poe-item as-text reference="Vitality" icon-inside></poe-item>Vitality, <poe-item as-text reference="Shield Charge" icon-inside></poe-item>Shield Charge and two <poe-item as-text reference="Lifetap Support" icon-inside></poe-item>Lifetap Support. Once we get the <poe-passive as-text reference="Call to Arms" icon-outside style="display:inline-block"></poe-passive>Call to Arms keystone, we will ditch Steelskin for Enduring Cry as our left-click skill. In the meantime, link a Lifetap to your Shield Crush, and another Lifetap to your Shield Charge. Keep the Lifetap on your Shield Charge at level one. You can put those two gems at your weapon swaps and keep them levelled until we can use them. If you somehow got a Chaos Orb or two by this point, try and trade for a <poe-item as-text reference="Lycosidae"></poe-item>. If you can't, get the highest available armor from the equipment vendor.
+
+ Don't use Shield Crush instead of Dash since our Health Regen isn't that great (yet), and make sure to activate your Vitality aura or you might kill yourself with all the Lifetaps.
 
 {{< admonition example "Invested Runthru: Shopping List" >}}
 Get the following gems from Trade if you can:
@@ -134,8 +138,14 @@ The Shield with the highest possible Armour that you can currently equip is a hi
 <poe-item as-icon reference="Victario's Flight" icon-size="auto" show-sockets-in-showcase></poe-item>
 {{</ admonition >}}
 
-{{< admonition abstract "League Start Runthru" >}}
-UNDER CONSTRUCTION
+{{< admonition abstract "Initial Runthru: Skip Everything But These..." >}}
+- Return to The Cavern of Wrath, exit to The Cavern of Anger.
+- Run thru The Cavern of Anger to Merveil's Lair and kill Merveil.
+- Continue to Act 2, The Southern Forest, and exit to The Forest Encampment
+- Go thru The Old Fields towards The Crossroads and activate the waypoint there.
+- Continue to The Broken Bridge, activate the waypoint, then kill Kraityn.
+- Return to the Crossroads and go the The Chamber of Sins Level 1
+- Activate the waypoint
 {{</ admonition >}}
 
 {{< horadric-helper "Headhunter" "https://web.poecdn.com/image/Art/2DItems/Belts/Headhunter.png" >}}`
