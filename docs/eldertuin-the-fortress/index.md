@@ -206,10 +206,11 @@ Get the following Gladiator ascendancy notables in this order:
 ## Bandit & Pantheon
 
 We need every passive point we can get: **Kill All Bandits**. As for the pantheon, it's especially tricky to get Chaos Resistance, so I recommend the **Soul of Arakaali** (5% Reduced Damage from DoT) with the Witch of the Cauldron (+25% Chaos Res. vs DoT) and the **Soul of Shakari** (5% Reduced Chaos Damage).
-
+<!--
 ## Levelling via the Break|Point Guide
 
 Click [here](/breakpoint-eldertuin/) for the Break|Point levelling guide. This will take you from Lioneye's Reach to Red Maps using the Break|Point method, whether you're a league starter or you already have some currency.
+-->
 
 ## Frequently Asked Questions
 
