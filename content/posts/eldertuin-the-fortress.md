@@ -209,7 +209,7 @@ You can use a high quality Dread Banner instead of a Defiance Banner for 5% more
 
 {{< figure src="/images/eldertuin-passives.png" link="/images/eldertuin-passives.png" target="_blank" >}}
 
-You can see the Passive Tree, Equipment and Skills via [PoEPlanner](https://poeplanner.com/b/QXV). For the damage calculations and the levelling passive tree, you can import this [pastebin link]() to the [Path of Building Community](https://pathofbuilding.community/) edition.
+You can see the Passive Tree, Equipment and Skills via [PoEPlanner](https://poeplanner.com/b/QXV). For the damage calculations and the levelling passive tree, you can import this [pastebin link](https://pastebin.com/Hku14LvS) to the [Path of Building Community](https://pathofbuilding.community/) edition.
 
 ### Ascendancy
 
