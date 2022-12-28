@@ -17,7 +17,7 @@ theme = "LoveIt"
   gitRepo = "https://github.com/GaiusRed/gaius.red"
   #  which hash function used for SRI, when empty, no SRI is used
   # ("sha256", "sha384", "sha512", "md5")
-  fingerprint = "sha512"
+  fingerprint = ""
   #  date format
   dateFormat = "2006-01-02"
   # website images for Open Graph and Twitter Cards
