@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Exa's Tavern"
 subtitle: "#Dungeon23: Week One"
 date: 2023-01-07T19:02:01+08:00
@@ -17,4 +18,14 @@ comment:
 {{< admonition abstract "This is part of the #Dungeon23 challenge. Click here to find out more." false >}}
 [28 Dec 2022 - #Dungeon23: Week Zero](/dungeon23-week-00/)
 {{</ admonition >}}
+
+Map No. 1: [Low-quality JPG](/images/dungeons23-01.jpg) | [High-quality PNG](/images/dungeons23-01.png)
+
+---
+
+## Exa's Tavern
+
+## Bartop, Kitchen & Basement
+
+## The Leyline Portal
 
