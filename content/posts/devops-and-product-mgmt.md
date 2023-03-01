@@ -11,6 +11,8 @@ images: ["/images/devops-and-product-mgmt.jpg"]
 featuredImage: "/images/devops-and-product-mgmt.jpg"
 comment:
   enable: true
+toc:
+  enable: false
 ---
 <!--more-->
 
