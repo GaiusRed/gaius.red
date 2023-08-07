@@ -1,0 +1,165 @@
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=robots content="noodp">
+<meta http-equiv=x-ua-compatible content="IE=edge, chrome=1">
+<title>The Role of Databases in Modern Models - GaiusRed</title><meta name=Description content="In the evolving landscape of AI, it's crucial to explore fresh approaches that can boost efficiency and adaptability. My latest article dives into one such fascinating concept – integrating databases directly with AI models. It's a nuanced shift that carries significant potential. If you're curious about the future of AI and how we can optimize it, you might find this read enlightening. Check it out here and let's start a conversation!"><meta property="og:title" content="The Role of Databases in Modern Models">
+<meta property="og:description" content="In the evolving landscape of AI, it's crucial to explore fresh approaches that can boost efficiency and adaptability. My latest article dives into one such fascinating concept – integrating databases directly with AI models. It's a nuanced shift that carries significant potential. If you're curious about the future of AI and how we can optimize it, you might find this read enlightening. Check it out here and let's start a conversation!">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://gaius.red/expanding-ai-capabilities/"><meta property="og:image" content="https://gaius.red/images/expanding-ai-capabilities-1.png"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2023-07-14T19:34:01+08:00">
+<meta property="article:modified_time" content="2023-07-14T19:34:01+08:00">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://gaius.red/images/expanding-ai-capabilities-1.png">
+<meta name=twitter:title content="The Role of Databases in Modern Models">
+<meta name=twitter:description content="In the evolving landscape of AI, it's crucial to explore fresh approaches that can boost efficiency and adaptability. My latest article dives into one such fascinating concept – integrating databases directly with AI models. It's a nuanced shift that carries significant potential. If you're curious about the future of AI and how we can optimize it, you might find this read enlightening. Check it out here and let's start a conversation!">
+<meta name=application-name content="GaiusRed">
+<meta name=apple-mobile-web-app-title content="GaiusRed"><meta name=theme-color content="#ffffff"><meta name=msapplication-TileColor content="#da532c"><link rel="shortcut icon" type=image/x-icon href=/favicon.ico>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=mask-icon href=/safari-pinned-tab.svg color=#5bbad5><link rel=manifest href=/site.webmanifest><link rel=canonical href=https://gaius.red/expanding-ai-capabilities/><link rel=prev href=https://gaius.red/navigating-change/><link rel=next href=https://gaius.red/echoes-of-divine-whispers/><link rel=stylesheet href=/lib/normalize/normalize.min.css><link rel=stylesheet href=/css/style.min.css><link rel=stylesheet href=/lib/fontawesome-free/all.min.css><link rel=stylesheet href=/lib/animate/animate.min.css><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"The Role of Databases in Modern Models","inLanguage":"en-us","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/gaius.red\/expanding-ai-capabilities\/"},"genre":"posts","keywords":"AI, Product Management, Work","wordcount":1862,"url":"https:\/\/gaius.red\/expanding-ai-capabilities\/","datePublished":"2023-07-14T19:34:01+08:00","dateModified":"2023-07-14T19:34:01+08:00","publisher":{"@type":"Organization","name":""},"author":{"@type":"Person","name":"Erik Gaius Capistrano"},"description":"In the evolving landscape of AI, it's crucial to explore fresh approaches that can boost efficiency and adaptability. My latest article dives into one such fascinating concept – integrating databases directly with AI models. It's a nuanced shift that carries significant potential. If you're curious about the future of AI and how we can optimize it, you might find this read enlightening. Check it out here and let's start a conversation!"}</script></head>
+<body header-desktop=fixed header-mobile=auto><script type=text/javascript>(window.localStorage&&localStorage.getItem('theme')?localStorage.getItem('theme')==='dark':'dark'==='auto'?window.matchMedia('(prefers-color-scheme: dark)').matches:'dark'==='dark')&&document.body.setAttribute('theme','dark')</script>
+<div id=mask></div><div class=wrapper><header class=desktop id=header-desktop>
+<div class=header-wrapper>
+<div class=header-title>
+<a href=/ title=GaiusRed><img class="lazyload logo" src=/svg/loading.min.svg data-src=/logo.png data-srcset="/logo.png, /logo.png 1.5x, /logo.png 2x" data-sizes=auto alt=/logo.png title=/logo.png><span class=header-title-pre><u style=text-decoration-color:#555></span>Gaius<span class=header-title-post><span style=color:Red>Red</span></u></span></a>
+</div>
+<div class=menu>
+<div class=menu-inner><a class=menu-item href=/resume/> Resume </a><a class=menu-item href=/categories/> Bookshelf </a><a class=menu-item href=/tags/> Tags </a><span class="menu-item delimiter"></span><span class="menu-item search" id=search-desktop>
+<input type=text placeholder="Search titles or contents..." id=search-input-desktop>
+<a href=javascript:void(0); class="search-button search-toggle" id=search-toggle-desktop title=Search>
+<i class="fas fa-search fa-fw"></i>
+</a>
+<a href=javascript:void(0); class="search-button search-clear" id=search-clear-desktop title=Clear>
+<i class="fas fa-times-circle fa-fw"></i>
+</a>
+<span class="search-button search-loading" id=search-loading-desktop>
+<i class="fas fa-spinner fa-fw fa-spin"></i>
+</span>
+</span><a href=javascript:void(0); class="menu-item theme-switch" title="Switch Theme">
+<i class="fas fa-adjust fa-fw"></i>
+</a>
+</div>
+</div>
+</div>
+</header><header class=mobile id=header-mobile>
+<div class=header-container>
+<div class=header-wrapper>
+<div class=header-title>
+<a href=/ title=GaiusRed><img class="lazyload logo" src=/svg/loading.min.svg data-src=/logo.png data-srcset="/logo.png, /logo.png 1.5x, /logo.png 2x" data-sizes=auto alt=/logo.png title=/logo.png><span class=header-title-pre><u style=text-decoration-color:#555></span>Gaius<span class=header-title-post><span style=color:Red>Red</span></u></span></a>
+</div>
+<div class=menu-toggle id=menu-toggle-mobile>
+<span></span><span></span><span></span>
+</div>
+</div>
+<div class=menu id=menu-mobile><div class=search-wrapper>
+<div class="search mobile" id=search-mobile>
+<input type=text placeholder="Search titles or contents..." id=search-input-mobile>
+<a href=javascript:void(0); class="search-button search-toggle" id=search-toggle-mobile title=Search>
+<i class="fas fa-search fa-fw"></i>
+</a>
+<a href=javascript:void(0); class="search-button search-clear" id=search-clear-mobile title=Clear>
+<i class="fas fa-times-circle fa-fw"></i>
+</a>
+<span class="search-button search-loading" id=search-loading-mobile>
+<i class="fas fa-spinner fa-fw fa-spin"></i>
+</span>
+</div>
+<a href=javascript:void(0); class=search-cancel id=search-cancel-mobile>
+Cancel
+</a>
+</div><a class=menu-item href=/resume/ title>Resume</a><a class=menu-item href=/categories/ title>Bookshelf</a><a class=menu-item href=/tags/ title>Tags</a><a href=javascript:void(0); class="menu-item theme-switch" title="Switch Theme">
+<i class="fas fa-adjust fa-fw"></i>
+</a></div>
+</div>
+</header>
+<div class="search-dropdown desktop">
+<div id=search-dropdown-desktop></div>
+</div>
+<div class="search-dropdown mobile">
+<div id=search-dropdown-mobile></div>
+</div>
+<main class=main>
+<div class=container><article class="page single"><h1 class="single-title animated flipInX">The Role of Databases in Modern Models</h1><h2 class=single-subtitle>Expanding AI Capabilities</h2><div class=post-meta>
+<div class=post-meta-line><span class=post-author><a href=https://gaius.red title=Author target=_blank rel="noopener noreffer author" class=author><i class="fas fa-user-circle fa-fw"></i>Erik Gaius Capistrano</a></span>&nbsp;<span class=post-category>included in <a href=/categories/work/><i class="fas fa-book fa-fw"></i>Work</a></span></div>
+<div class=post-meta-line><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime=2023-07-14>2023-07-14</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;1862 words&nbsp;
+<i class="far fa-clock fa-fw"></i>&nbsp;9 minutes&nbsp;</div>
+</div><div class=featured-image><img class=lazyload src=/svg/loading.min.svg data-src=/images/expanding-ai-capabilities-1.png data-srcset="/images/expanding-ai-capabilities-1.png, /images/expanding-ai-capabilities-1.png 1.5x, /images/expanding-ai-capabilities-1.png 2x" data-sizes=auto alt=/images/expanding-ai-capabilities-1.png title="In the evolving landscape of AI, it's crucial to explore fresh approaches that can boost efficiency and adaptability. My latest article dives into one such fascinating concept – integrating databases directly with AI models. It's a nuanced shift that carries significant potential. If you're curious about the future of AI and how we can optimize it, you might find this read enlightening. Check it out here and let's start a conversation!"></div><div class=content id=content><p>Product owners like us exist at a fascinating juncture of technology and business. We are the fortunate soothsayers at the forefront of a revolution, witnessing artificial intelligence&rsquo;s gradual metamorphosis from sci-fi fantasy to reality. Yet, while we revel in the ongoing digital renaissance, it&rsquo;s impossible to ignore the hurdles that come with it. Let&rsquo;s embark on a brief journey through the current landscape of AI, focusing particularly on large language models (LLMs) and their workings.</p>
+<p>AI today is a buzzing beehive of innovation. Everywhere we look, we see LLMs proving their mettle. From composing human-like texts and predicting stock market trends to assisting in medical diagnoses, these intelligent systems are making their presence felt. LLMs learn from vast amounts of data, absorbing patterns, nuances, and knowledge, a process akin to an enthusiastic learner in a gigantic library, reading and internalizing as much as they can.</p>
+<p>LLMs operate on a simple principle. They&rsquo;re trained on enormous datasets, extracting valuable information and making sense of it through what we call tokens. Picture tokens as snippets of information, like pieces of a puzzle that the model assembles to gain understanding and provide responses. To make the most of an LLM, one needs to feed it as many tokens as it can handle, pushing the boundaries of its capacity to ensure comprehensive learning.</p>
+<p>But here&rsquo;s the snag. We&rsquo;re constantly pushing the limits of the token count to equip the model with more knowledge, but doing so comes with its fair share of problems. There&rsquo;s a cap on the number of tokens these models can process effectively, and exceeding this token limit can lead to inaccuracies and &lsquo;hallucinations&rsquo; where the model begins to generate content that doesn&rsquo;t align with reality.</p>
+<p>More crucially, the conventional approach to training AI models is time-consuming and resource-intensive. The training process requires us to feed proprietary data into the system, which is not only a mammoth task but also raises concerns around data privacy and security.</p>
+<p>So, are we resigned to these challenges, or is there a path that leads us towards a more efficient, accurate, and secure way of harnessing the power of LLMs? I believe there is, and it involves a fundamental shift in our approach, swapping the model training with a mechanism that allows AI to interact with databases directly.</p>
+<p>As we venture further, we&rsquo;ll unpack this new approach, exploring its potential benefits and implications, and why I think it&rsquo;s a game-changer in the realm of AI.</p>
+<p><img class=lazyload src=/svg/loading.min.svg data-src=/images/expanding-ai-capabilities-2.png data-srcset="/images/expanding-ai-capabilities-2.png, /images/expanding-ai-capabilities-2.png 1.5x, /images/expanding-ai-capabilities-2.png 2x" data-sizes=auto alt=/images/expanding-ai-capabilities-2.png title=Image></p>
+<p>To fully appreciate the transformative potential of the new approach I&rsquo;m advocating for, it&rsquo;s necessary to delve a little deeper into the issues faced with the conventional methods of training AI models.</p>
+<p>Our current approach to machine learning models hinges heavily on training. We teach models to learn and reason by exposing them to vast volumes of data, allowing them to understand patterns, context, and relationships. This training phase is crucial, determining the model&rsquo;s eventual accuracy and its ability to handle complex tasks.</p>
+<p>However, the size of the training data and the time and computational power required for effective learning can make this process a formidable undertaking. Besides, the need to constantly update the training data to ensure the model remains relevant adds to the complexity. There&rsquo;s also the question of the proprietary nature of data and the stringent need to adhere to data privacy norms.</p>
+<p>Then, we have the token limit problem, the invisible boundary that prevents us from stuffing our models with as much knowledge as we&rsquo;d like. Each token a model processes eats into its total capacity, and exceeding this limit can lead to a degradation in the quality of the model&rsquo;s responses.</p>
+<p>With these challenges at hand, what if we could pivot to a different strategy? One where we don&rsquo;t have to worry about the token limit or go through the painstaking process of training the model on proprietary data? I propose a way where we can use off-the-shelf AI models, pair them with a database containing our proprietary data, and instruct these models on how to interact with this data using SQL commands.</p>
+<p>Imagine the possibilities. The model wouldn&rsquo;t have to consume tokens to learn from the data because it would have direct access to the database. It wouldn&rsquo;t need to be trained on proprietary data because it would generate SQL commands to interact with the data when needed. We would essentially have a dynamic AI model, capable of pulling data and learning on the go.</p>
+<p>This approach isn&rsquo;t about dismissing the importance of training AI models. Instead, it’s about exploring a complementary path, one that promises efficiency, flexibility, and an enhanced level of accuracy. In the next section, we&rsquo;ll dive deeper into how this new approach works, its mechanics, and its potential benefits.</p>
+<p><img class=lazyload src=/svg/loading.min.svg data-src=/images/expanding-ai-capabilities-3.png data-srcset="/images/expanding-ai-capabilities-3.png, /images/expanding-ai-capabilities-3.png 1.5x, /images/expanding-ai-capabilities-3.png 2x" data-sizes=auto alt=/images/expanding-ai-capabilities-3.png title=Image></p>
+<p>So how exactly does this new approach work, and why should we, as product managers, pay attention to it?</p>
+<p>Here&rsquo;s the thing. When we interact with databases, we don&rsquo;t dump all our information into a query and expect a useful response. Instead, we use SQL commands to define our requests precisely, so the database understands and retrieves what we need. In the same way, we can use off-the-shelf AI models and teach them to interact with databases via SQL commands.</p>
+<p>Think of it this way: we&rsquo;re giving our AI model a map and a dictionary. The map is the structure of the database, and the dictionary is the set of SQL commands. By knowing the structure and how to manipulate it using SQL, the model doesn&rsquo;t have to remember every piece of data - it can simply query for it when needed. This reduces the load on the model, since it doesn&rsquo;t have to hold all the tokens in memory, and eliminates the risk of exceeding the token limit.</p>
+<p>But how does it process queries? Let&rsquo;s break it down. When a query comes in, instead of throwing the model into the deep end, we ask the model what SQL commands it should perform first. The model, having been taught to interact with the database, will issue SQL commands based on the query. We then provide the model with the results of these commands. Now that the model has specific, relevant data to work with, it can process the query and provide a response, without hallucinating or struggling to connect dots from an overflow of tokens.</p>
+<p>In essence, we&rsquo;re simplifying the process and making it more efficient. The model no longer needs to be fed with proprietary data or pushed to its token limit. It can use its symbolic memory, the SQL database, to access and manipulate data as needed.</p>
+<p>This approach is not just about creating a faster, leaner AI model. It&rsquo;s about re-imagining the way we view AI capabilities. It&rsquo;s about leveraging the power of existing tools, like SQL databases, and finding ways to make them work in harmony with AI models.</p>
+<p><img class=lazyload src=/svg/loading.min.svg data-src=/images/expanding-ai-capabilities-4.png data-srcset="/images/expanding-ai-capabilities-4.png, /images/expanding-ai-capabilities-4.png 1.5x, /images/expanding-ai-capabilities-4.png 2x" data-sizes=auto alt=/images/expanding-ai-capabilities-4.png title=Image></p>
+<p>Now that we have a better understanding of this new approach, let&rsquo;s talk about why it’s worth our attention. Why should we, as product owners, care about this shift, and what potential benefits does it bring to the table?</p>
+<p>Firstly, efficiency. With this approach, our AI models no longer have to shoulder the entire load of processing vast amounts of proprietary data. By teaching them to interact with databases via SQL commands, we simplify the process, reducing the demand on computational resources and enabling a more streamlined approach to handling queries.</p>
+<p>Secondly, this approach addresses the token limit issue head-on. By allowing the model to directly access the data it needs to process a query, we eliminate the need to overload the model with tokens. This not only prevents the risk of &lsquo;hallucinations&rsquo; but also improves the accuracy of the model&rsquo;s responses.</p>
+<p>Next, we have the matter of data privacy. When we train models using proprietary data, there&rsquo;s always a risk, however minute, of sensitive information being inadvertently leaked. By allowing the model to interact directly with a secure database, we can better protect proprietary information while still giving the model access to the data it needs.</p>
+<p>But, the advantages go beyond just improving efficiency and preserving data privacy. I believe this approach could open the door to more dynamic, adaptable AI models. By having direct access to databases, AI models can stay up-to-date with the latest data without needing to go through a new round of training each time there&rsquo;s an update. This adaptability is a game-changer in industries where real-time data is crucial.</p>
+<p>Finally, this new approach offers an exciting prospect: the ability to leverage AI models in new ways without needing to retrain them on new data. Instead of creating a model for every new project, we could utilize off-the-shelf models in diverse applications, saving both time and resources.</p>
+<p>Make no mistake, this isn&rsquo;t a magic wand that will solve all the complexities of AI overnight. But it represents a promising step towards a more efficient, accurate, and secure way of leveraging AI.</p>
+<p><img class=lazyload src=/svg/loading.min.svg data-src=/images/expanding-ai-capabilities-5.png data-srcset="/images/expanding-ai-capabilities-5.png, /images/expanding-ai-capabilities-5.png 1.5x, /images/expanding-ai-capabilities-5.png 2x" data-sizes=auto alt=/images/expanding-ai-capabilities-5.png title=Image></p>
+<p>Given the benefits and potential of this new approach, it&rsquo;s easy to envision its applicability across a wide array of domains. However, let&rsquo;s zoom in on a single, highly relevant application for most businesses today: customer support.</p>
+<p>Imagine a scenario where an AI model assists a customer support agent during a call. In this scenario, the AI model has access to a database that contains information about all the capabilities the agent can offer, as well as data related to the customer&rsquo;s history, preferences, and previous interactions. As the conversation unfolds, the agent receives real-time suggestions from the AI model on the best next action to take or the most suitable solutions to offer, based on the live dialogue and the historical data pulled from the database.</p>
+<p>This could transform the way customer service is delivered. Instead of requiring the agent to remember every policy, procedure, and product detail, they would have a smart assistant offering contextually relevant advice. This would not only speed up the call resolution time but also significantly improve the quality of the service delivered. It would be a more efficient, accurate, and personalized approach to customer support.</p>
+<p>After understanding the potential this new approach holds for customer support, one can extrapolate its benefits to other fields. In healthcare, an AI system could interact with databases of medical conditions, symptoms, and treatments to assist doctors. Financial institutions could leverage AI models to interact with databases of market data and economic indicators to provide real-time insights.</p>
+<p>Naturally, this approach isn&rsquo;t without challenges, such as ensuring database security, dealing with potential bias in the AI&rsquo;s SQL command generation, and making sure the AI understands the database structure correctly. But every challenge presents an opportunity for us to innovate, learn, and grow.</p>
+<p>This vision of AI actively participating in the data dialogue, and not just passively consuming tokens, brings us closer to a future where AI is more efficient, accurate, versatile, and seamlessly integrated into our digital ecosystems.</p>
+<p>As we stand on the cusp of this exciting new era, it&rsquo;s clear that our journey with AI is far from over. It’s merely evolving, opening up new pathways to explore and new vistas to conquer.</p>
+<hr>
+<p>Note: This was first published as a <a href="https://www.linkedin.com/pulse/expanding-ai-capabilities-role-databases-modern-erik-gaius-capistrano/?trackingId=MBw6%2Fm2GS2o8Tr8BDBGB6g%3D%3D" target=_blank rel="noopener noreffer">LinkedIn article</a>.</p></div><div class=post-footer id=post-footer>
+<div class=post-info>
+<div class=post-info-line>
+<div class=post-info-mod>
+<span>Updated on 2023-07-14</span>
+</div>
+<div class=post-info-license></div>
+</div>
+<div class=post-info-line>
+<div class=post-info-md><span>
+<a class=link-to-markdown href=/expanding-ai-capabilities/index.md target=_blank>Read Markdown</a>
+</span></div>
+<div class=post-info-share>
+<span><a href=javascript:void(0); title="Share on Twitter" data-sharer=twitter data-url=https://gaius.red/expanding-ai-capabilities/ data-title="The Role of Databases in Modern Models" data-via=GaiusRed data-hashtags="AI,Product Management,Work"><i class="fab fa-twitter fa-fw"></i></a><a href=javascript:void(0); title="Share on Facebook" data-sharer=facebook data-url=https://gaius.red/expanding-ai-capabilities/ data-hashtag=AI><i class="fab fa-facebook-square fa-fw"></i></a><a href=javascript:void(0); title="Share on Hacker News" data-sharer=hackernews data-url=https://gaius.red/expanding-ai-capabilities/ data-title="The Role of Databases in Modern Models"><i class="fab fa-hacker-news fa-fw"></i></a><a href=javascript:void(0); title="Share on Reddit" data-sharer=reddit data-url=https://gaius.red/expanding-ai-capabilities/><i class="fab fa-reddit fa-fw"></i></a><a href=javascript:void(0); title="Share on Pocket" data-sharer=pocket data-url=https://gaius.red/expanding-ai-capabilities/><i class="fab fa-get-pocket fa-fw"></i></a><a href=javascript:void(0); title="Share on Evernote" data-sharer=evernote data-url=https://gaius.red/expanding-ai-capabilities/ data-title="The Role of Databases in Modern Models"><i class="fab fa-evernote fa-fw"></i></a></span>
+</div>
+</div>
+</div>
+<div class=post-info-more>
+<section class=post-tags><i class="fas fa-tags fa-fw"></i>&nbsp;<a href=/tags/ai/>AI</a>,&nbsp;<a href=/tags/product-management/>Product Management</a>,&nbsp;<a href=/tags/work/>Work</a></section>
+<section>
+<span><a href=javascript:void(0); onclick=window.history.back()>Back</a></span>&nbsp;|&nbsp;<span><a href=/>Home</a></span>
+</section>
+</div>
+<div class=post-nav><a href=/navigating-change/ class=prev rel=prev title="A Tale of Trust, Verification, and Intellectual Humility"><i class="fas fa-angle-left fa-fw"></i>A Tale of Trust, Verification, and Intellectual Humility</a>
+<a href=/echoes-of-divine-whispers/ class=next rel=next title="Echoes of Divine Whispers">Echoes of Divine Whispers<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+<div id=comments><div id=disqus_thread class=comment></div><noscript>
+Please enable JavaScript to view the comments powered by <a href=https://disqus.com/?ref_noscript>Disqus</a>.
+</noscript></div></article></div>
+</main><footer class=footer>
+<div class=footer-container><div class=footer-line><i class="far fa-copyright fa-fw"></i><span itemprop=copyrightYear>2020 - 2023</span><span class=author itemprop=copyrightHolder>&nbsp;<a href=https://gaius.red target=_blank>Erik Gaius Capistrano</a></span>&nbsp;|&nbsp;<span class=license><a rel="license external nofollow noopener noreffer" href=https://creativecommons.org/licenses/by-nc/4.0/ target=_blank>CC BY-NC 4.0</a></span></div>
+</div>
+</footer></div>
+<div id=fixed-buttons><a href=# id=back-to-top class=fixed-button title="Back to Top">
+<i class="fas fa-arrow-up fa-fw"></i>
+</a><a href=# id=view-comments class=fixed-button title="View Comments">
+<i class="fas fa-comment fa-fw"></i>
+</a>
+</div><link rel=stylesheet href=/lib/katex/katex.min.css><link rel=stylesheet href=/lib/katex/copy-tex.min.css><link rel=stylesheet href=/lib/cookieconsent/cookieconsent.min.css><script type=text/javascript src=https://https-gaius-red.disqus.com/embed.js defer></script><script type=text/javascript src=/lib/smooth-scroll/smooth-scroll.min.js></script><script type=text/javascript src=/lib/autocomplete/autocomplete.min.js></script><script type=text/javascript src=/lib/lunr/lunr.min.js></script><script type=text/javascript src=/lib/lazysizes/lazysizes.min.js></script><script type=text/javascript src=/lib/clipboard/clipboard.min.js></script><script type=text/javascript src=/lib/sharer/sharer.min.js></script><script type=text/javascript src=/lib/katex/katex.min.js></script><script type=text/javascript src=/lib/katex/auto-render.min.js></script><script type=text/javascript src=/lib/katex/copy-tex.min.js></script><script type=text/javascript src=/lib/katex/mhchem.min.js></script><script type=text/javascript src=/lib/cookieconsent/cookieconsent.min.js></script><script type=text/javascript>window.config={code:{copyTitle:"Copy to clipboard",maxShownLines:10},comment:{},cookieconsent:{content:{dismiss:"Got it!",link:"Learn more",message:"This website uses Cookies to improve your experience."},enable:!0,palette:{button:{background:"#f0f0f0"},popup:{background:"#1aa3ff"}},theme:"edgeless"},math:{delimiters:[{display:!0,left:"$$",right:"$$"},{display:!0,left:"\\[",right:"\\]"},{display:!1,left:"$",right:"$"},{display:!1,left:"\\(",right:"\\)"}],strict:!1},search:{highlightTag:"em",lunrIndexURL:"/index.json",maxResultLength:10,noResultsFound:"No results found",snippetLength:30,type:"lunr"}}</script><script type=text/javascript src=/js/theme.min.js></script><script type=text/javascript>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-RW3DJD2J1R')</script><script type=text/javascript src="https://www.googletagmanager.com/gtag/js?id=G-RW3DJD2J1R" async></script></body>
+</html>
