@@ -1,0 +1,150 @@
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=robots content="noodp">
+<meta http-equiv=x-ua-compatible content="IE=edge, chrome=1">
+<title>Reevaluating AI Understanding in the Age of LLMs - GaiusRed</title><meta name=Description content="Can modern AI escape from Searle's Chinese Room? I did not expect to dive this deep because of a random TikTok vid..."><meta property="og:title" content="Reevaluating AI Understanding in the Age of LLMs">
+<meta property="og:description" content="Can modern AI escape from Searle's Chinese Room? I did not expect to dive this deep because of a random TikTok vid...">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://gaius.red/going-thru-the-chinese-room/"><meta property="og:image" content="https://gaius.red/images/going-thru-the-chinese-room-1.png"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2023-05-22T19:34:01+08:00">
+<meta property="article:modified_time" content="2023-05-22T19:34:01+08:00">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://gaius.red/images/going-thru-the-chinese-room-1.png">
+<meta name=twitter:title content="Reevaluating AI Understanding in the Age of LLMs">
+<meta name=twitter:description content="Can modern AI escape from Searle's Chinese Room? I did not expect to dive this deep because of a random TikTok vid...">
+<meta name=application-name content="GaiusRed">
+<meta name=apple-mobile-web-app-title content="GaiusRed"><meta name=theme-color content="#ffffff"><meta name=msapplication-TileColor content="#da532c"><link rel="shortcut icon" type=image/x-icon href=/favicon.ico>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=mask-icon href=/safari-pinned-tab.svg color=#5bbad5><link rel=manifest href=/site.webmanifest><link rel=canonical href=https://gaius.red/going-thru-the-chinese-room/><link rel=prev href=https://gaius.red/beyond-abcs/><link rel=next href=https://gaius.red/surviving-the-stakeholder-safari/><link rel=stylesheet href=/lib/normalize/normalize.min.css><link rel=stylesheet href=/css/style.min.css><link rel=stylesheet href=/lib/fontawesome-free/all.min.css><link rel=stylesheet href=/lib/animate/animate.min.css><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"Reevaluating AI Understanding in the Age of LLMs","inLanguage":"en-us","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/gaius.red\/going-thru-the-chinese-room\/"},"genre":"posts","keywords":"AI, Product Management, Work","wordcount":1239,"url":"https:\/\/gaius.red\/going-thru-the-chinese-room\/","datePublished":"2023-05-22T19:34:01+08:00","dateModified":"2023-05-22T19:34:01+08:00","publisher":{"@type":"Organization","name":""},"author":{"@type":"Person","name":"Erik Gaius Capistrano"},"description":"Can modern AI escape from Searle's Chinese Room? I did not expect to dive this deep because of a random TikTok vid..."}</script></head>
+<body header-desktop=fixed header-mobile=auto><script type=text/javascript>(window.localStorage&&localStorage.getItem('theme')?localStorage.getItem('theme')==='dark':'dark'==='auto'?window.matchMedia('(prefers-color-scheme: dark)').matches:'dark'==='dark')&&document.body.setAttribute('theme','dark')</script>
+<div id=mask></div><div class=wrapper><header class=desktop id=header-desktop>
+<div class=header-wrapper>
+<div class=header-title>
+<a href=/ title=GaiusRed><img class="lazyload logo" src=/svg/loading.min.svg data-src=/logo.png data-srcset="/logo.png, /logo.png 1.5x, /logo.png 2x" data-sizes=auto alt=/logo.png title=/logo.png><span class=header-title-pre><u style=text-decoration-color:#555></span>Gaius<span class=header-title-post><span style=color:Red>Red</span></u></span></a>
+</div>
+<div class=menu>
+<div class=menu-inner><a class=menu-item href=/resume/> Resume </a><a class=menu-item href=/categories/> Bookshelf </a><a class=menu-item href=/tags/> Tags </a><span class="menu-item delimiter"></span><span class="menu-item search" id=search-desktop>
+<input type=text placeholder="Search titles or contents..." id=search-input-desktop>
+<a href=javascript:void(0); class="search-button search-toggle" id=search-toggle-desktop title=Search>
+<i class="fas fa-search fa-fw"></i>
+</a>
+<a href=javascript:void(0); class="search-button search-clear" id=search-clear-desktop title=Clear>
+<i class="fas fa-times-circle fa-fw"></i>
+</a>
+<span class="search-button search-loading" id=search-loading-desktop>
+<i class="fas fa-spinner fa-fw fa-spin"></i>
+</span>
+</span><a href=javascript:void(0); class="menu-item theme-switch" title="Switch Theme">
+<i class="fas fa-adjust fa-fw"></i>
+</a>
+</div>
+</div>
+</div>
+</header><header class=mobile id=header-mobile>
+<div class=header-container>
+<div class=header-wrapper>
+<div class=header-title>
+<a href=/ title=GaiusRed><img class="lazyload logo" src=/svg/loading.min.svg data-src=/logo.png data-srcset="/logo.png, /logo.png 1.5x, /logo.png 2x" data-sizes=auto alt=/logo.png title=/logo.png><span class=header-title-pre><u style=text-decoration-color:#555></span>Gaius<span class=header-title-post><span style=color:Red>Red</span></u></span></a>
+</div>
+<div class=menu-toggle id=menu-toggle-mobile>
+<span></span><span></span><span></span>
+</div>
+</div>
+<div class=menu id=menu-mobile><div class=search-wrapper>
+<div class="search mobile" id=search-mobile>
+<input type=text placeholder="Search titles or contents..." id=search-input-mobile>
+<a href=javascript:void(0); class="search-button search-toggle" id=search-toggle-mobile title=Search>
+<i class="fas fa-search fa-fw"></i>
+</a>
+<a href=javascript:void(0); class="search-button search-clear" id=search-clear-mobile title=Clear>
+<i class="fas fa-times-circle fa-fw"></i>
+</a>
+<span class="search-button search-loading" id=search-loading-mobile>
+<i class="fas fa-spinner fa-fw fa-spin"></i>
+</span>
+</div>
+<a href=javascript:void(0); class=search-cancel id=search-cancel-mobile>
+Cancel
+</a>
+</div><a class=menu-item href=/resume/ title>Resume</a><a class=menu-item href=/categories/ title>Bookshelf</a><a class=menu-item href=/tags/ title>Tags</a><a href=javascript:void(0); class="menu-item theme-switch" title="Switch Theme">
+<i class="fas fa-adjust fa-fw"></i>
+</a></div>
+</div>
+</header>
+<div class="search-dropdown desktop">
+<div id=search-dropdown-desktop></div>
+</div>
+<div class="search-dropdown mobile">
+<div id=search-dropdown-mobile></div>
+</div>
+<main class=main>
+<div class=container><article class="page single"><h1 class="single-title animated flipInX">Reevaluating AI Understanding in the Age of LLMs</h1><h2 class=single-subtitle>Going Thru the Chinese Room</h2><div class=post-meta>
+<div class=post-meta-line><span class=post-author><a href=https://gaius.red title=Author target=_blank rel="noopener noreffer author" class=author><i class="fas fa-user-circle fa-fw"></i>Erik Gaius Capistrano</a></span>&nbsp;<span class=post-category>included in <a href=/categories/work/><i class="fas fa-book fa-fw"></i>Work</a></span></div>
+<div class=post-meta-line><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime=2023-05-22>2023-05-22</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;1239 words&nbsp;
+<i class="far fa-clock fa-fw"></i>&nbsp;6 minutes&nbsp;</div>
+</div><div class=featured-image><img class=lazyload src=/svg/loading.min.svg data-src=/images/going-thru-the-chinese-room-1.png data-srcset="/images/going-thru-the-chinese-room-1.png, /images/going-thru-the-chinese-room-1.png 1.5x, /images/going-thru-the-chinese-room-1.png 2x" data-sizes=auto alt=/images/going-thru-the-chinese-room-1.png title="Can modern AI escape from Searle's Chinese Room? I did not expect to dive this deep because of a random TikTok vid..."></div><div class=content id=content><p>You&rsquo;d be amazed at what you can stumble upon on TikTok these days. One day, I&rsquo;m watching a cat video, and the next, I&rsquo;m getting a philosophy lesson from <a href=https://www.tiktok.com/@wilafoorarnouk/video/7234840134762417409 target=_blank rel="noopener noreffer">John Searle about his Chinese Room Argument</a>.</p>
+<p>Now, I don&rsquo;t work with AI or anything, but as someone involved in tech, it got me thinking – have we moved past this Chinese Room thing with the latest AI advancements? It&rsquo;s an intriguing question and well, here I am, exploring this curiosity and writing about it. Who knew a TikTok video could lead to such a deep dive, right?</p>
+<p><img class=lazyload src=/svg/loading.min.svg data-src=/images/going-thru-the-chinese-room-2.png data-srcset="/images/going-thru-the-chinese-room-2.png, /images/going-thru-the-chinese-room-2.png 1.5x, /images/going-thru-the-chinese-room-2.png 2x" data-sizes=auto alt=/images/going-thru-the-chinese-room-2.png title=Image></p>
+<p>The philosophical underpinnings of artificial intelligence (AI) have long been a subject of profound debate. One argument, presented by philosopher John Searle, has managed to encapsulate a particular line of inquiry regarding AI&rsquo;s ability (or inability) to comprehend. Known as the Chinese Room argument, this thought experiment has influenced AI theory since its inception.</p>
+<p>In 1980, Searle posed a hypothesis challenging the premise that machines can possess &lsquo;understanding&rsquo; in the same sense as human beings do. His Chinese Room scenario paints a vivid picture: imagine a non-Chinese speaking person situated in a room. This individual is provided with an elaborate set of instructions, a &ldquo;rule book&rdquo; of sorts, which allows them to translate incoming Chinese characters into outgoing characters. To anyone outside the room, it would appear as if the operator inside truly comprehends Chinese, as they process and produce sensible Chinese phrases.</p>
+<p>However, in truth, the operator does not understand the language. They are merely following the rules set out before them, translating symbols according to an established guide without comprehension of the language&rsquo;s meaning or syntax. Searle proposed this scenario as an analog to AI, suggesting that AI, much like the individual in the Chinese Room, may mimic human-like responses without possessing an iota of genuine understanding.</p>
+<p>Searle&rsquo;s Chinese Room argument fundamentally challenges the concept of Strong AI, or the belief that machines can genuinely understand and exhibit human-like intelligence. The argument has been considered an intellectual bulwark against the notion of truly cognitive machines, asserting that while machines may simulate understanding, this is an illusion. They are, according to Searle, devoid of consciousness, mind, and understanding, trapped eternally within their Chinese Room.</p>
+<p><img class=lazyload src=/svg/loading.min.svg data-src=/images/going-thru-the-chinese-room-3.png data-srcset="/images/going-thru-the-chinese-room-3.png, /images/going-thru-the-chinese-room-3.png 1.5x, /images/going-thru-the-chinese-room-3.png 2x" data-sizes=auto alt=/images/going-thru-the-chinese-room-3.png title=Image></p>
+<p>The AI landscape has undergone seismic shifts since John Searle first introduced the Chinese Room Argument. Among the most significant advancements in AI theory and practice is the emergence of Large Language Models (LLM), such as OpenAI&rsquo;s GPT-3 & GPT-4, Google&rsquo;s Bard (LaMDA, PaLM), and Meta&rsquo;s LLaMA. These advanced AI systems have brought forth new ways of understanding how machines can learn, adapt, and even potentially understand, challenging long-standing assumptions.</p>
+<p>In the earlier days of AI, machines were rule-based, operating within predefined parameters. They were confined to following specific instructions, much like the operator in Searle&rsquo;s Chinese Room. However, the advent of LLMs marked a notable departure from these traditional rule-based systems. Powered by complex neural networks, these models mimic the human brain&rsquo;s learning processes in ways never before seen in AI.</p>
+<p>These AI models are trained on vast databases of human language, encompassing a broad spectrum of topics, contexts, and nuances. Through deep learning, they are capable of recognizing patterns, discerning relationships, and making predictions based on the data they&rsquo;ve been trained on. Their operation extends beyond mere rule-following; they demonstrate a form of learning akin to human cognitive processes.</p>
+<p>Furthermore, these LLM-based AIs have made some remarkable strides, demonstrating capabilities that edge closer to a human-like understanding of information. In 2020, OpenAI&rsquo;s GPT-3 generated human-like text, seemingly understanding and producing language beyond simple rule-following. Similarly, DeepMind&rsquo;s AlphaFold accurately predicted protein structures in 2021, displaying a degree of understanding of the physical world previously thought to be exclusive to human cognition. Finally, Google&rsquo;s LaMDA passed the Turing Test in 2022, exhibiting intelligent behavior equivalent to that of a human.</p>
+<p>Each of these achievements not only represent technical milestones in the development of AI but also bring into question the boundaries of machine &lsquo;understanding&rsquo;. If these LLMs can comprehend, generate, and interact with information in such advanced ways, are we still justified in considering them mere rule-followers, devoid of understanding?</p>
+<p><img class=lazyload src=/svg/loading.min.svg data-src=/images/going-thru-the-chinese-room-4.png data-srcset="/images/going-thru-the-chinese-room-4.png, /images/going-thru-the-chinese-room-4.png 1.5x, /images/going-thru-the-chinese-room-4.png 2x" data-sizes=auto alt=/images/going-thru-the-chinese-room-4.png title=Image></p>
+<p>As the technological landscape shifts and Large Language Models (LLMs) reshape our understanding of what AI can achieve, it is pertinent to reassess the validity of the Chinese Room argument posited by John Searle. The argument, compelling in its time, is now being probed with fresh perspectives, brought about by the advancements in AI. We will explore a couple of these prevalent counterarguments.</p>
+<p>The Systems Reply stands as one of the most compelling retorts to Searle&rsquo;s argument. This counterargument expands the concept of understanding beyond the individual in the room, considering it as a property of the system as a whole. When seen through the lens of modern AI, the individual in Searle&rsquo;s room becomes analogous to an AI algorithm, the rule book to the training data, and the room itself to the computational environment. This perspective argues for an emergent understanding from the interaction of these components, mirroring the neural interplay in the human brain that leads to our understanding.</p>
+<p>Another prevalent counterargument, the Argument from Analogy, draws parallels with instances where our operation of tools and systems doesn&rsquo;t necessitate our understanding of their internal functioning. When using a calculator or driving a car, we utilize these complex tools effectively without comprehending the underlying mechanics. Can this analogy not extend to AI systems as well? This would imply that an AI need not understand its internal workings to exhibit understanding-like behaviors.</p>
+<p>Recent strides in neuroscience and cognitive science further buttress these counterarguments, providing a glimpse into consciousness as the product of physical processes rather than some ethereal entity. If machines, albeit via different physical processes, can emulate these functions, it becomes increasingly plausible to consider the potential for machine understanding or consciousness.</p>
+<p><img class=lazyload src=/svg/loading.min.svg data-src=/images/going-thru-the-chinese-room-5.png data-srcset="/images/going-thru-the-chinese-room-5.png, /images/going-thru-the-chinese-room-5.png 1.5x, /images/going-thru-the-chinese-room-5.png 2x" data-sizes=auto alt=/images/going-thru-the-chinese-room-5.png title=Image></p>
+<p>The philosophical debate surrounding the understanding of artificial intelligence has undeniably been influenced by John Searle&rsquo;s Chinese Room argument. His thought experiment, provocative and influential, has shaped discussions about the nature of AI understanding and consciousness for decades. However, with the advent of Large Language Models (LLMs) and other advanced AI systems, the conversation appears to be shifting.</p>
+<p>The evolution of AI technology has dramatically altered our understanding of what machines are capable of. The notion that AI is confined to the proverbial Chinese Room, bound by predefined rules and devoid of genuine understanding, seems increasingly outdated. Today&rsquo;s AI systems are more sophisticated, capable of learning from vast amounts of data and even exhibiting behaviors that were previously thought to be uniquely human.</p>
+<p>We have embarked on a journey to challenge and reconfigure our understanding of machine intelligence. The advancement of AI systems has brought forth compelling counterarguments to Searle&rsquo;s Chinese Room, arguments that encourage us to view AI in a different light. Concepts such as the Systems Reply and the Argument from Analogy push us to reimagine our definitions of understanding and consciousness.</p>
+<p>We now stand at a critical juncture in AI&rsquo;s evolution. The capabilities of AI have surpassed the simplistic notion of rule-based operations. As we continue to make strides in AI development, it is essential to revisit, reassess, and revise our understanding of AI&rsquo;s cognitive capabilities. The conversation is far from over, but one thing is becoming increasingly clear: the door to the Chinese Room might just be starting to creak open.</p>
+<hr>
+<p>Note: This was first published as a <a href="https://www.linkedin.com/pulse/beyond-chinese-room-reevaluating-ai-understanding-age-capistrano/?trackingId=GL%2F1W3xIS%2Bb2M6dqv75pEQ%3D%3D" target=_blank rel="noopener noreffer">LinkedIn article</a>.</p></div><div class=post-footer id=post-footer>
+<div class=post-info>
+<div class=post-info-line>
+<div class=post-info-mod>
+<span>Updated on 2023-05-22</span>
+</div>
+<div class=post-info-license></div>
+</div>
+<div class=post-info-line>
+<div class=post-info-md><span>
+<a class=link-to-markdown href=/going-thru-the-chinese-room/index.md target=_blank>Read Markdown</a>
+</span></div>
+<div class=post-info-share>
+<span><a href=javascript:void(0); title="Share on Twitter" data-sharer=twitter data-url=https://gaius.red/going-thru-the-chinese-room/ data-title="Reevaluating AI Understanding in the Age of LLMs" data-via=GaiusRed data-hashtags="AI,Product Management,Work"><i class="fab fa-twitter fa-fw"></i></a><a href=javascript:void(0); title="Share on Facebook" data-sharer=facebook data-url=https://gaius.red/going-thru-the-chinese-room/ data-hashtag=AI><i class="fab fa-facebook-square fa-fw"></i></a><a href=javascript:void(0); title="Share on Hacker News" data-sharer=hackernews data-url=https://gaius.red/going-thru-the-chinese-room/ data-title="Reevaluating AI Understanding in the Age of LLMs"><i class="fab fa-hacker-news fa-fw"></i></a><a href=javascript:void(0); title="Share on Reddit" data-sharer=reddit data-url=https://gaius.red/going-thru-the-chinese-room/><i class="fab fa-reddit fa-fw"></i></a><a href=javascript:void(0); title="Share on Pocket" data-sharer=pocket data-url=https://gaius.red/going-thru-the-chinese-room/><i class="fab fa-get-pocket fa-fw"></i></a><a href=javascript:void(0); title="Share on Evernote" data-sharer=evernote data-url=https://gaius.red/going-thru-the-chinese-room/ data-title="Reevaluating AI Understanding in the Age of LLMs"><i class="fab fa-evernote fa-fw"></i></a></span>
+</div>
+</div>
+</div>
+<div class=post-info-more>
+<section class=post-tags><i class="fas fa-tags fa-fw"></i>&nbsp;<a href=/tags/ai/>AI</a>,&nbsp;<a href=/tags/product-management/>Product Management</a>,&nbsp;<a href=/tags/work/>Work</a></section>
+<section>
+<span><a href=javascript:void(0); onclick=window.history.back()>Back</a></span>&nbsp;|&nbsp;<span><a href=/>Home</a></span>
+</section>
+</div>
+<div class=post-nav><a href=/beyond-abcs/ class=prev rel=prev title="Preparing my daughter for a STEM Future"><i class="fas fa-angle-left fa-fw"></i>Preparing my daughter for a STEM Future</a>
+<a href=/surviving-the-stakeholder-safari/ class=next rel=next title="Surviving the Stakeholder Safari: A Product Owner's Guide">Surviving the Stakeholder Safari: A Product Owner's Guide<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+<div id=comments><div id=disqus_thread class=comment></div><noscript>
+Please enable JavaScript to view the comments powered by <a href=https://disqus.com/?ref_noscript>Disqus</a>.
+</noscript></div></article></div>
+</main><footer class=footer>
+<div class=footer-container><div class=footer-line><i class="far fa-copyright fa-fw"></i><span itemprop=copyrightYear>2020 - 2023</span><span class=author itemprop=copyrightHolder>&nbsp;<a href=https://gaius.red target=_blank>Erik Gaius Capistrano</a></span>&nbsp;|&nbsp;<span class=license><a rel="license external nofollow noopener noreffer" href=https://creativecommons.org/licenses/by-nc/4.0/ target=_blank>CC BY-NC 4.0</a></span></div>
+</div>
+</footer></div>
+<div id=fixed-buttons><a href=# id=back-to-top class=fixed-button title="Back to Top">
+<i class="fas fa-arrow-up fa-fw"></i>
+</a><a href=# id=view-comments class=fixed-button title="View Comments">
+<i class="fas fa-comment fa-fw"></i>
+</a>
+</div><link rel=stylesheet href=/lib/katex/katex.min.css><link rel=stylesheet href=/lib/katex/copy-tex.min.css><link rel=stylesheet href=/lib/cookieconsent/cookieconsent.min.css><script type=text/javascript src=https://https-gaius-red.disqus.com/embed.js defer></script><script type=text/javascript src=/lib/smooth-scroll/smooth-scroll.min.js></script><script type=text/javascript src=/lib/autocomplete/autocomplete.min.js></script><script type=text/javascript src=/lib/lunr/lunr.min.js></script><script type=text/javascript src=/lib/lazysizes/lazysizes.min.js></script><script type=text/javascript src=/lib/clipboard/clipboard.min.js></script><script type=text/javascript src=/lib/sharer/sharer.min.js></script><script type=text/javascript src=/lib/katex/katex.min.js></script><script type=text/javascript src=/lib/katex/auto-render.min.js></script><script type=text/javascript src=/lib/katex/copy-tex.min.js></script><script type=text/javascript src=/lib/katex/mhchem.min.js></script><script type=text/javascript src=/lib/cookieconsent/cookieconsent.min.js></script><script type=text/javascript>window.config={code:{copyTitle:"Copy to clipboard",maxShownLines:10},comment:{},cookieconsent:{content:{dismiss:"Got it!",link:"Learn more",message:"This website uses Cookies to improve your experience."},enable:!0,palette:{button:{background:"#f0f0f0"},popup:{background:"#1aa3ff"}},theme:"edgeless"},math:{delimiters:[{display:!0,left:"$$",right:"$$"},{display:!0,left:"\\[",right:"\\]"},{display:!1,left:"$",right:"$"},{display:!1,left:"\\(",right:"\\)"}],strict:!1},search:{highlightTag:"em",lunrIndexURL:"/index.json",maxResultLength:10,noResultsFound:"No results found",snippetLength:30,type:"lunr"}}</script><script type=text/javascript src=/js/theme.min.js></script><script type=text/javascript>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-RW3DJD2J1R')</script><script type=text/javascript src="https://www.googletagmanager.com/gtag/js?id=G-RW3DJD2J1R" async></script></body>
+</html>
