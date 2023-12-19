@@ -1,0 +1,189 @@
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=robots content="noodp">
+<meta http-equiv=x-ua-compatible content="IE=edge, chrome=1">
+<title>A Product Owner's Guide to Creating Effective User Stories - GaiusRed</title><meta name=Description content="Excited to share my latest article on the art of breaking down work into user stories in Agile projects. Learn practical strategies for creating effective, manageable units of work that align with end-user needs. Check it out and let me know your thoughts!"><meta property="og:title" content="A Product Owner's Guide to Creating Effective User Stories">
+<meta property="og:description" content="Excited to share my latest article on the art of breaking down work into user stories in Agile projects. Learn practical strategies for creating effective, manageable units of work that align with end-user needs. Check it out and let me know your thoughts!">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://gaius.red/slicing-the-agile-cake/"><meta property="og:image" content="https://gaius.red/images/jo-szczepanska-5aiRb5f464A-unsplash.jpg"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2023-10-18T23:59:59+08:00">
+<meta property="article:modified_time" content="2023-10-18T23:59:59+08:00">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://gaius.red/images/jo-szczepanska-5aiRb5f464A-unsplash.jpg">
+<meta name=twitter:title content="A Product Owner's Guide to Creating Effective User Stories">
+<meta name=twitter:description content="Excited to share my latest article on the art of breaking down work into user stories in Agile projects. Learn practical strategies for creating effective, manageable units of work that align with end-user needs. Check it out and let me know your thoughts!">
+<meta name=application-name content="GaiusRed">
+<meta name=apple-mobile-web-app-title content="GaiusRed"><meta name=theme-color content="#ffffff"><meta name=msapplication-TileColor content="#da532c"><link rel="shortcut icon" type=image/x-icon href=/favicon.ico>
+<link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=mask-icon href=/safari-pinned-tab.svg color=#5bbad5><link rel=manifest href=/site.webmanifest><link rel=canonical href=https://gaius.red/slicing-the-agile-cake/><link rel=prev href=https://gaius.red/prompts-and-productivity/><link rel=next href=https://gaius.red/reflections-of-a-filipino-it-engineer/><link rel=stylesheet href=/lib/normalize/normalize.min.css><link rel=stylesheet href=/css/style.min.css><link rel=stylesheet href=/lib/fontawesome-free/all.min.css><link rel=stylesheet href=/lib/animate/animate.min.css><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"A Product Owner's Guide to Creating Effective User Stories","inLanguage":"en-us","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/gaius.red\/slicing-the-agile-cake\/"},"genre":"posts","keywords":"Product Management, Work","wordcount":1916,"url":"https:\/\/gaius.red\/slicing-the-agile-cake\/","datePublished":"2023-10-18T23:59:59+08:00","dateModified":"2023-10-18T23:59:59+08:00","publisher":{"@type":"Organization","name":""},"author":{"@type":"Person","name":"Erik Gaius Capistrano"},"description":"Excited to share my latest article on the art of breaking down work into user stories in Agile projects. Learn practical strategies for creating effective, manageable units of work that align with end-user needs. Check it out and let me know your thoughts!"}</script></head>
+<body header-desktop=fixed header-mobile=auto><script type=text/javascript>(window.localStorage&&localStorage.getItem('theme')?localStorage.getItem('theme')==='dark':'dark'==='auto'?window.matchMedia('(prefers-color-scheme: dark)').matches:'dark'==='dark')&&document.body.setAttribute('theme','dark')</script>
+<div id=mask></div><div class=wrapper><header class=desktop id=header-desktop>
+<div class=header-wrapper>
+<div class=header-title>
+<a href=/ title=GaiusRed><img class="lazyload logo" src=/svg/loading.min.svg data-src=/logo.png data-srcset="/logo.png, /logo.png 1.5x, /logo.png 2x" data-sizes=auto alt=/logo.png title=/logo.png><span class=header-title-pre><u style=text-decoration-color:#555></span>Gaius<span class=header-title-post><span style=color:Red>Red</span></u></span></a>
+</div>
+<div class=menu>
+<div class=menu-inner><a class=menu-item href=/resume/> Resume </a><a class=menu-item href=/categories/> Bookshelf </a><a class=menu-item href=/tags/> Tags </a><span class="menu-item delimiter"></span><span class="menu-item search" id=search-desktop>
+<input type=text placeholder="Search titles or contents..." id=search-input-desktop>
+<a href=javascript:void(0); class="search-button search-toggle" id=search-toggle-desktop title=Search>
+<i class="fas fa-search fa-fw"></i>
+</a>
+<a href=javascript:void(0); class="search-button search-clear" id=search-clear-desktop title=Clear>
+<i class="fas fa-times-circle fa-fw"></i>
+</a>
+<span class="search-button search-loading" id=search-loading-desktop>
+<i class="fas fa-spinner fa-fw fa-spin"></i>
+</span>
+</span><a href=javascript:void(0); class="menu-item theme-switch" title="Switch Theme">
+<i class="fas fa-adjust fa-fw"></i>
+</a>
+</div>
+</div>
+</div>
+</header><header class=mobile id=header-mobile>
+<div class=header-container>
+<div class=header-wrapper>
+<div class=header-title>
+<a href=/ title=GaiusRed><img class="lazyload logo" src=/svg/loading.min.svg data-src=/logo.png data-srcset="/logo.png, /logo.png 1.5x, /logo.png 2x" data-sizes=auto alt=/logo.png title=/logo.png><span class=header-title-pre><u style=text-decoration-color:#555></span>Gaius<span class=header-title-post><span style=color:Red>Red</span></u></span></a>
+</div>
+<div class=menu-toggle id=menu-toggle-mobile>
+<span></span><span></span><span></span>
+</div>
+</div>
+<div class=menu id=menu-mobile><div class=search-wrapper>
+<div class="search mobile" id=search-mobile>
+<input type=text placeholder="Search titles or contents..." id=search-input-mobile>
+<a href=javascript:void(0); class="search-button search-toggle" id=search-toggle-mobile title=Search>
+<i class="fas fa-search fa-fw"></i>
+</a>
+<a href=javascript:void(0); class="search-button search-clear" id=search-clear-mobile title=Clear>
+<i class="fas fa-times-circle fa-fw"></i>
+</a>
+<span class="search-button search-loading" id=search-loading-mobile>
+<i class="fas fa-spinner fa-fw fa-spin"></i>
+</span>
+</div>
+<a href=javascript:void(0); class=search-cancel id=search-cancel-mobile>
+Cancel
+</a>
+</div><a class=menu-item href=/resume/ title>Resume</a><a class=menu-item href=/categories/ title>Bookshelf</a><a class=menu-item href=/tags/ title>Tags</a><a href=javascript:void(0); class="menu-item theme-switch" title="Switch Theme">
+<i class="fas fa-adjust fa-fw"></i>
+</a></div>
+</div>
+</header>
+<div class="search-dropdown desktop">
+<div id=search-dropdown-desktop></div>
+</div>
+<div class="search-dropdown mobile">
+<div id=search-dropdown-mobile></div>
+</div>
+<main class=main>
+<div class=container><article class="page single"><h1 class="single-title animated flipInX">A Product Owner's Guide to Creating Effective User Stories</h1><h2 class=single-subtitle>Slicing the Agile Cake</h2><div class=post-meta>
+<div class=post-meta-line><span class=post-author><a href=https://gaius.red title=Author target=_blank rel="noopener noreffer author" class=author><i class="fas fa-user-circle fa-fw"></i>Erik Gaius Capistrano</a></span>&nbsp;<span class=post-category>included in <a href=/categories/work/><i class="fas fa-book fa-fw"></i>Work</a></span></div>
+<div class=post-meta-line><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime=2023-10-18>2023-10-18</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;1916 words&nbsp;
+<i class="far fa-clock fa-fw"></i>&nbsp;9 minutes&nbsp;</div>
+</div><div class=featured-image><img class=lazyload src=/svg/loading.min.svg data-src=/images/jo-szczepanska-5aiRb5f464A-unsplash.jpg data-srcset="/images/jo-szczepanska-5aiRb5f464A-unsplash.jpg, /images/jo-szczepanska-5aiRb5f464A-unsplash.jpg 1.5x, /images/jo-szczepanska-5aiRb5f464A-unsplash.jpg 2x" data-sizes=auto alt=/images/jo-szczepanska-5aiRb5f464A-unsplash.jpg title="Excited to share my latest article on the art of breaking down work into user stories in Agile projects. Learn practical strategies for creating effective, manageable units of work that align with end-user needs. Check it out and let me know your thoughts!"></div><div class=content id=content><p>After I started my journey as a product owner last year, I&rsquo;ve come across quite a few challenges that have shaped my understanding of project management. One such challenge is breaking down work into user stories - a fundamental aspect of any Agile project.</p>
+<p>User stories are essentially discrete units of work that describe a feature or ability from an end-user perspective. They serve as building blocks for our projects and provide us with a roadmap to follow throughout development cycles. However, creating effective user stories isn&rsquo;t always straightforward; it requires practice and experience.</p>
+<p>I remember one particular instance when we were working on developing a new feature for our application. We had brainstormed several ideas and had outlined what we thought was an excellent plan using traditional methods of story creation based on features alone. But as we delved deeper into the development process, we realized that this approach led to long feedback loops and increased complexity due to dependencies between different parts of the system.</p>
+<p>This experience taught me two important lessons about creating user stories in Agile projects:</p>
+<ol>
+<li>There is no &lsquo;silver bullet&rsquo; solution – The best way to break down work into user stories depends largely on the specific context and requirements of each project.</li>
+<li>Practice makes perfect – Like many other aspects in life, mastering story creation comes with time and hands-on experience.</li>
+</ol>
+<p>The popular framework used by most teams involves thinking about who the user is (As a…), what they want (I want…) ,and why they want it (so that…). While this provides us with some direction, it doesn’t necessarily guide us towards breaking down complex tasks into smaller functional pieces effectively.</p>
+<p>That’s where Bill Wake&rsquo;s concept of viewing systems like multi-layer cakes comes in handy <a href=http://xp123.com/articles/invest-in-good-stories-and-smart-tasks/ target=_blank rel="noopener noreffer">Bill Wake 2003</a>. Wake suggests that we should think of a system as a multi-layer cake, with each layer representing different aspects such as the network layer, persistence layer, logic layer and presentation layer. When splitting a story, it&rsquo;s like serving up only part of that cake. The best way to give the customer the essence of the whole cake is to slice vertically through all layers.</p>
+<p>This approach resonated with me because I had seen firsthand how focusing on one aspect or &lsquo;layer&rsquo; at a time could lead to inefficiencies in our workflow. For instance, developing an entire database layer without considering its interaction with other layers often resulted in little value for customers if there was no corresponding presentation layer.</p>
+<p><img class=lazyload src=/svg/loading.min.svg data-src=/images/parabol-the-agile-meeting-toolbox-jNKfJ6u78nw-unsplash.jpg data-srcset="/images/parabol-the-agile-meeting-toolbox-jNKfJ6u78nw-unsplash.jpg, /images/parabol-the-agile-meeting-toolbox-jNKfJ6u78nw-unsplash.jpg 1.5x, /images/parabol-the-agile-meeting-toolbox-jNKfJ6u78nw-unsplash.jpg 2x" data-sizes=auto alt=/images/parabol-the-agile-meeting-toolbox-jNKfJ6u78nw-unsplash.jpg title=Image>
+<strong>Horizontal slicing</strong> is a common approach to breaking down work in software development projects. It involves dividing the project into layers or tiers, such as the user interface (UI), business logic, and database layers. Each layer is then developed separately before being integrated to form the complete system.</p>
+<p>For instance, consider a team developing an e-commerce website. They might decide to first build all of the UI components like product pages, shopping cart functionality, and checkout screens. Once that&rsquo;s done, they would move on to implementing business logic for inventory management, pricing calculations etc., followed by setting up databases for storing product information and customer details.</p>
+<p>While this method may seem logical at first glance - after all it allows teams to focus on one aspect of the system at a time - it has several significant drawbacks which can hinder progress and negatively impact overall project outcomes.</p>
+<h3 id=pitfalls-of-horizontal-slicing>Pitfalls Of Horizontal Slicing</h3>
+<ol>
+<li><strong>Delayed User Feedback:</strong> One major downside of horizontal slicing is that users cannot experience or provide feedback on the system until all layers are completed and integrated together. This goes against Agile principles which emphasize early and continuous delivery of valuable software in order to maximize customer satisfaction.</li>
+</ol>
+<p>In our e-commerce website example above, customers wouldn&rsquo;t be able to interact with any part of site until every single component across all layers was finished – from browsing products right through making purchases. This means potentially waiting months before getting any real-world insights about how well your solution meets their needs or where improvements could be made.</p>
+<ol start=2>
+<li><strong>Increased Risk:</strong> The longer you wait for feedback from end-users or stakeholders, higher risk there is that what you&rsquo;re building won&rsquo;t meet their expectations or requirements when finally delivered. In worst case scenarios this could mean having wasted considerable time and resources developing features that need substantial rework or even removal altogether because they don’t align with user needs.</li>
+</ol>
+<p>With horizontal slicing approach used in our example scenario; if customers find navigation confusing once site launches because product categories weren&rsquo;t structured as they expected, or if checkout process is too complicated leading to abandoned carts, significant changes would be needed across all layers of system. This could potentially require a lot more effort than if these issues had been identified and addressed earlier in development cycle.</p>
+<ol start=3>
+<li><strong>Lack Of Flexibility:</strong> Horizontal slicing can also make it difficult to adapt project scope or priorities as business needs change. If you&rsquo;ve already invested heavily into developing one layer of your system, changing course partway through can be costly and time-consuming.</li>
+</ol>
+<p>For instance, halfway through building our e-commerce site the team might discover that there&rsquo;s a new market trend for personalized shopping experiences. To capitalize on this opportunity they decide to add recommendation engine functionality which suggests products based on customer&rsquo;s browsing history and preferences. However because UI was built without considering this feature, substantial modifications would now be required not just at UI level but also within business logic and database layers to support data collection and analysis necessary for generating recommendations.</p>
+<ol start=4>
+<li><strong>Integration Challenges:</strong> When different layers are developed independently from each other integration often becomes complex task fraught with difficulties. Incompatibilities between how different parts of system have been designed can lead to bugs or performance issues that are hard to diagnose and fix.</li>
+</ol>
+<p>In context of our example; if database structure wasn’t properly aligned with requirements of inventory management logic within business layer – perhaps due lack communication between teams working on these components – then problems may arise when trying integrate them together such as incorrect stock levels being displayed on product pages.</p>
+<ol start=5>
+<li><strong>Team Silos:</strong> Lastly horizontal slicing tends encourage formation silos within teams where individuals or sub-teams become specialized in working only certain aspects project rather than having shared understanding whole system works together deliver value end-users customers.</li>
+</ol>
+<p>This lack cross-functional collaboration knowledge sharing can hinder problem-solving creativity innovation while also increasing risk key person dependency where loss single team member significantly impacts project’s progress success.</p>
+<p>To sum up, while horizontal slicing might seem like a logical approach to breaking down work in software development projects, it has several significant drawbacks. It can delay user feedback, increase project risk and complexity, reduce flexibility to adapt to changing business needs or priorities, create integration challenges and encourage the formation of team silos. Therefore it&rsquo;s crucial for teams to consider these pitfalls before deciding on their strategy for dividing work into manageable units or &lsquo;stories&rsquo;.</p>
+<p><img class=lazyload src=/svg/loading.min.svg data-src=/images/austin-distel-wD1LRb9OeEo-unsplash.jpg data-srcset="/images/austin-distel-wD1LRb9OeEo-unsplash.jpg, /images/austin-distel-wD1LRb9OeEo-unsplash.jpg 1.5x, /images/austin-distel-wD1LRb9OeEo-unsplash.jpg 2x" data-sizes=auto alt=/images/austin-distel-wD1LRb9OeEo-unsplash.jpg title=Image>
+To avoid these pitfalls of horizontal slicing, we can employ several strategies to effectively create user stories. Let&rsquo;s revisit our e-commerce website example and apply these techniques:</p>
+<h4 id=workflow-steps>Workflow Steps</h4>
+<p>Instead of focusing on layers (UI, business logic, database), consider breaking down work based on the steps a user would take to complete an action or process in your system.</p>
+<p>For instance, purchasing a product involves several steps: searching for a product, adding it to the cart, entering shipping information, making payment and receiving confirmation. Each step could be developed as its own story with all necessary layers included.</p>
+<p>This approach allows you to deliver value incrementally at each step while also getting early feedback from users about specific parts of their journey through your site.</p>
+<h4 id=business-rules>Business Rules</h4>
+<p>Business rules are another effective way to slice work into manageable pieces. These are conditions that must be met for business processes to be carried out correctly.</p>
+<p>In our e-commerce scenario, one such rule might be &ldquo;A customer cannot checkout if their shopping cart is empty&rdquo;. This rule can guide development of both UI elements (like disabling &lsquo;checkout&rsquo; button when cart is empty) and backend logic (preventing creation of orders without associated products).</p>
+<p>By focusing on individual business rules like this one at a time you ensure every aspect related functionality gets attention it needs across all layers system while also delivering valuable features incrementally end-users customers.</p>
+<h4 id=happy--unhappy-path>Happy / Unhappy Path</h4>
+<p>The happy path represents ideal workflow where everything goes according plan no errors occur whereas unhappy paths represent scenarios where something goes wrong requires handling exceptions error messages etc</p>
+<p>For example happy path story might involve successful purchase product however corresponding unhappy path stories could cover situations like failed payments due insufficient funds credit card declines stock availability issues so forth By considering both types scenarios during planning phase you ensure robustness resilience your application against variety real-world conditions challenges</p>
+<h4 id=data-types-or-parameters>Data Types or Parameters</h4>
+<p>Data types parameters provide yet another angle slicing work For instance registration form might require various types information from users such name email address password etc Each these could be developed as separate story ensuring all necessary validation logic UI components are place for each type data</p>
+<p>In context our e-commerce site this approach could applied when developing product search functionality Different stories could created to handle searches by product name category price range so on This allows team deliver useful features incrementally while also making sure each aspect search functionality is thoroughly tested refined based user feedback</p>
+<h4 id=vague-terms-and-conjunctions>Vague Terms and Conjunctions</h4>
+<p>Finally, watch out for vague terms or conjunctions in your user stories - they often indicate that a story can be broken down further.</p>
+<p>For example, a story like &ldquo;As a customer, I want to browse products and add them to my cart&rdquo; can actually be split into two: &ldquo;As a customer, I want to browse products&rdquo; and &ldquo;As a customer, I want to add products to my cart&rdquo;. By breaking down such compound requirements into smaller pieces you ensure that each part gets the attention it needs during development while also simplifying testing efforts.</p>
+<p>By applying these strategies effectively we can avoid pitfalls associated with horizontal slicing instead create meaningful manageable units work which align more closely Agile principles continuous delivery value early frequent feedback adaptability change</p>
+<p><img class=lazyload src=/svg/loading.min.svg data-src=/images/alvaro-reyes-qWwpHwip31M-unsplash.jpg data-srcset="/images/alvaro-reyes-qWwpHwip31M-unsplash.jpg, /images/alvaro-reyes-qWwpHwip31M-unsplash.jpg 1.5x, /images/alvaro-reyes-qWwpHwip31M-unsplash.jpg 2x" data-sizes=auto alt=/images/alvaro-reyes-qWwpHwip31M-unsplash.jpg title=Image>
+The benefits of effectively breaking down work into user stories are manifold. It allows for faster feedback loops as smaller pieces of functionality can be developed, tested and presented to users or stakeholders more quickly. This in turn reduces risk by enabling potential issues or misalignments with customer needs to be identified earlier in the development cycle.</p>
+<p>Furthermore, it increases flexibility as changes in business priorities or requirements can be accommodated more easily when working on smaller units rather than large chunks of functionality. It also simplifies integration efforts as all necessary layers for a particular piece of functionality are considered together rather than separately.</p>
+<p>Finally yet importantly, it fosters better collaboration within teams by encouraging cross-functional understanding and knowledge sharing – everyone gets a clearer picture of how their individual contributions fit into the bigger picture which boosts motivation and productivity.</p>
+<p>In essence, effective story creation is about striking a balance between theory (the frameworks we use) and practice (learning from experience). There&rsquo;s no perfect formula; what works best will depend on your specific project context. However armed with an understanding common pitfalls avoid useful strategies apply you&rsquo;re well way mastering this crucial skill delivering successful Agile projects.</p>
+<hr>
+<p>Note: This was first published as a <a href="https://www.linkedin.com/pulse/slicing-agile-cake-product-owners-guide-creating-user-capistrano-a6k2c/?trackingId=EF1%2Fq7LURQ6GRl4oNdL6pQ%3D%3D" target=_blank rel="noopener noreffer">LinkedIn article</a>.</p></div><div class=post-footer id=post-footer>
+<div class=post-info>
+<div class=post-info-line>
+<div class=post-info-mod>
+<span>Updated on 2023-10-18</span>
+</div>
+<div class=post-info-license></div>
+</div>
+<div class=post-info-line>
+<div class=post-info-md><span>
+<a class=link-to-markdown href=/slicing-the-agile-cake/index.md target=_blank>Read Markdown</a>
+</span></div>
+<div class=post-info-share>
+<span><a href=javascript:void(0); title="Share on Twitter" data-sharer=twitter data-url=https://gaius.red/slicing-the-agile-cake/ data-title="A Product Owner's Guide to Creating Effective User Stories" data-via=GaiusRed data-hashtags="Product Management,Work"><i class="fab fa-twitter fa-fw"></i></a><a href=javascript:void(0); title="Share on Facebook" data-sharer=facebook data-url=https://gaius.red/slicing-the-agile-cake/ data-hashtag="Product Management"><i class="fab fa-facebook-square fa-fw"></i></a><a href=javascript:void(0); title="Share on Hacker News" data-sharer=hackernews data-url=https://gaius.red/slicing-the-agile-cake/ data-title="A Product Owner's Guide to Creating Effective User Stories"><i class="fab fa-hacker-news fa-fw"></i></a><a href=javascript:void(0); title="Share on Reddit" data-sharer=reddit data-url=https://gaius.red/slicing-the-agile-cake/><i class="fab fa-reddit fa-fw"></i></a><a href=javascript:void(0); title="Share on Pocket" data-sharer=pocket data-url=https://gaius.red/slicing-the-agile-cake/><i class="fab fa-get-pocket fa-fw"></i></a><a href=javascript:void(0); title="Share on Evernote" data-sharer=evernote data-url=https://gaius.red/slicing-the-agile-cake/ data-title="A Product Owner's Guide to Creating Effective User Stories"><i class="fab fa-evernote fa-fw"></i></a></span>
+</div>
+</div>
+</div>
+<div class=post-info-more>
+<section class=post-tags><i class="fas fa-tags fa-fw"></i>&nbsp;<a href=/tags/product-management/>Product Management</a>,&nbsp;<a href=/tags/work/>Work</a></section>
+<section>
+<span><a href=javascript:void(0); onclick=window.history.back()>Back</a></span>&nbsp;|&nbsp;<span><a href=/>Home</a></span>
+</section>
+</div>
+<div class=post-nav><a href=/prompts-and-productivity/ class=prev rel=prev title="Enhancing Efficiency with ChatGPT"><i class="fas fa-angle-left fa-fw"></i>Enhancing Efficiency with ChatGPT</a>
+<a href=/reflections-of-a-filipino-it-engineer/ class=next rel=next title="Term Limits, Uninformed Voting & Sensationalism">Term Limits, Uninformed Voting & Sensationalism<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+<div id=comments><div id=disqus_thread class=comment></div><noscript>
+Please enable JavaScript to view the comments powered by <a href=https://disqus.com/?ref_noscript>Disqus</a>.
+</noscript></div></article></div>
+</main><footer class=footer>
+<div class=footer-container><div class=footer-line><i class="far fa-copyright fa-fw"></i><span itemprop=copyrightYear>2020 - 2023</span><span class=author itemprop=copyrightHolder>&nbsp;<a href=https://gaius.red target=_blank>Erik Gaius Capistrano</a></span>&nbsp;|&nbsp;<span class=license><a rel="license external nofollow noopener noreffer" href=https://creativecommons.org/licenses/by-nc/4.0/ target=_blank>CC BY-NC 4.0</a></span></div>
+</div>
+</footer></div>
+<div id=fixed-buttons><a href=# id=back-to-top class=fixed-button title="Back to Top">
+<i class="fas fa-arrow-up fa-fw"></i>
+</a><a href=# id=view-comments class=fixed-button title="View Comments">
+<i class="fas fa-comment fa-fw"></i>
+</a>
+</div><link rel=stylesheet href=/lib/katex/katex.min.css><link rel=stylesheet href=/lib/katex/copy-tex.min.css><link rel=stylesheet href=/lib/cookieconsent/cookieconsent.min.css><script type=text/javascript src=https://https-gaius-red.disqus.com/embed.js defer></script><script type=text/javascript src=/lib/smooth-scroll/smooth-scroll.min.js></script><script type=text/javascript src=/lib/autocomplete/autocomplete.min.js></script><script type=text/javascript src=/lib/lunr/lunr.min.js></script><script type=text/javascript src=/lib/lazysizes/lazysizes.min.js></script><script type=text/javascript src=/lib/clipboard/clipboard.min.js></script><script type=text/javascript src=/lib/sharer/sharer.min.js></script><script type=text/javascript src=/lib/katex/katex.min.js></script><script type=text/javascript src=/lib/katex/auto-render.min.js></script><script type=text/javascript src=/lib/katex/copy-tex.min.js></script><script type=text/javascript src=/lib/katex/mhchem.min.js></script><script type=text/javascript src=/lib/cookieconsent/cookieconsent.min.js></script><script type=text/javascript>window.config={code:{copyTitle:"Copy to clipboard",maxShownLines:10},comment:{},cookieconsent:{content:{dismiss:"Got it!",link:"Learn more",message:"This website uses Cookies to improve your experience."},enable:!0,palette:{button:{background:"#f0f0f0"},popup:{background:"#1aa3ff"}},theme:"edgeless"},math:{delimiters:[{display:!0,left:"$$",right:"$$"},{display:!0,left:"\\[",right:"\\]"},{display:!1,left:"$",right:"$"},{display:!1,left:"\\(",right:"\\)"}],strict:!1},search:{highlightTag:"em",lunrIndexURL:"/index.json",maxResultLength:10,noResultsFound:"No results found",snippetLength:30,type:"lunr"}}</script><script type=text/javascript src=/js/theme.min.js></script><script type=text/javascript>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-RW3DJD2J1R')</script><script type=text/javascript src="https://www.googletagmanager.com/gtag/js?id=G-RW3DJD2J1R" async></script></body>
+</html>
